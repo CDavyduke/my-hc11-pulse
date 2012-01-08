@@ -31,7 +31,7 @@ GEL_BASEDIR=$(SRCDIR)
 
 # Use the cme11 board configuration files (compilation flags
 # and specific includes).
-override TARGET_BOARD=m68hc11-cme11
+override TARGET_BOARD=m68hc11-corey
 
 include $(GEL_BASEDIR)/config/make.defs
 
